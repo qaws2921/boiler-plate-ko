@@ -44,6 +44,10 @@ app.post('/register',(req,res) => {
 
 })
 
+app.post('./login',(req,res) => {
+  
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
